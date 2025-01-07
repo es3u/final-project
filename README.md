@@ -95,48 +95,42 @@ Integration: SteamDB API (planned)
 
 ## __Endpoints Done By Me__
 
-I have done the Models , DTOs , Service , Controller And CRUD for (Image)
+I have done the Models , DTOs , Service , Controller And CRUD for (Image ,admin)
 
 AuthService , imageService ,imageRepository 
 
 1- getReleasingGameRequests
 
-2-getSupportTickets
+2-getUnvalidatedDevelopers
 
-3-getUnvalidatedDevelopers
+3-getAllRequests
 
-4-getAllRequests
+4-  getUnvalidatedReviewers
 
-5-  getUnvalidatedReviewers
+5-validateGame
 
-6-validateGame
+6- validateSupportTicket
 
-7- validateSupportTicket
+7- validateDeveloper
 
-8- validateDeveloper
+8- validateReviewer
 
-9- validateReviewer
+9- banPlayer
 
-10- banPlayer
+10-unbanPlayer
 
-11-unbanPlayer
+11-banDeveloper
 
-12-banDeveloper
+12-unbanDeveloper
 
-13-unbanDeveloper
+13- banReviewer
 
-14- banReviewer
+14-banReviewer
 
-15- get-all-support
+15-unbanReviewer
 
-16- send-support-ticket
+16- uploadVideo
 
-17-banReviewer
-
-18-unbanReviewer
-
-19- uploadVideo
-
-20-getVideo
+17-getVideo
 
 
