@@ -65,6 +65,11 @@ Integration: SteamDB API (planned)
 
 الجدولة في الوقت الحقيقي: Quartz Scheduler لمهام مثل إرسال رموز التفعيل
 
+إضافة فديو وصوره : add image and video in databasee
+
+رسم بياني :ClassDigram-->luced.app
+رسم بياني :UsseeCase -->drow.io
+
 التكامل: SteamDB API (مخطط له)
 
 ## __Links__
