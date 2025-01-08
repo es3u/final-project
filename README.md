@@ -74,6 +74,9 @@ Integration: SteamDB API (planned)
 
 ## __Links__
 
+Deployment:
+Indievers-env.eba-gikingcr.eu-central-1.elasticbeanstalk.com
+
 [Final Project on Figma](https://www.figma.com/design/fmij8RUf5p3tRiZtyWHFnP/Final-Project?node-id=187-7034&t=QkyWdXbZEsiK2saG-1)
 
 [Presentaion](https://www.canva.com/design/DAGbZ_0Urrs/qAYvQk4ngNszlmng_w_j0A/edit?utm_content=DAGbZ_0Urrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -101,7 +104,8 @@ Model:
 
 MyUser ,
 image:-->UplodVideo , getVideo
-,VideoReview
+,VideoReview ،
+Platform
 
 DTO:
 
@@ -116,7 +120,8 @@ AuthService ,
 imageService ,
 ViedoRevieewSerivce
 RequestService : -->getAllRequests ,
-SupportTicket :validateSupportTicket  ,GetAllSupportTecket
+SupportTicket :validateSupportTicket  ,GetAllSupportTecket ,
+PlatformService
 
 
 
@@ -127,6 +132,7 @@ AuthController ,
 imageController ,
 VideoReviewController
 RequestController : -->getAllRequests , validateSupportTicket  ,
+
 
 Repository:
 
