@@ -95,9 +95,43 @@ Integration: SteamDB API (planned)
 
 ## __Endpoints Done By Me__
 
-I have done the Models , DTOs , Service , Controller And CRUD for (Image ,admin)
+I have done : 
 
-AuthService , imageService ,imageRepository 
+Model:
+
+MyUser
+image:-->UplodVideo , getVideo
+VideoReview
+
+DTO:
+
+DevloperDTO in
+DevloperDTO out
+VideoReviewDTO
+
+
+Service:
+
+AuthService
+imageService
+ViedoRevieewSerivce
+
+
+Controller:
+
+AuthController
+imageController
+VideoReviewController
+
+Repository:
+
+AuthRepository
+imageRepository
+VideoReviewReepository
+
+
+Notifaction Email : Devloper and player when buy. 
+ 
 
 1- getReleasingGameRequests
 
