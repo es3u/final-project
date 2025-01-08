@@ -99,29 +99,34 @@ I have done :
 
 Model:
 
-MyUser
+MyUser ,
 image:-->UplodVideo , getVideo
-VideoReview
+,VideoReview
 
 DTO:
 
-DevloperDTO in
-DevloperDTO out
-VideoReviewDTO
+DevloperDTO in ,
+ DevloperDTO out ,
+ VideoReviewDTO
 
 
 Service:
 
-AuthService
-imageService
+AuthService ,
+imageService ,
 ViedoRevieewSerivce
+RequestService : -->getAllRequests ,
+SupportTicket :validateSupportTicket  ,GetAllSupportTecket
+
+
 
 
 Controller:
 
-AuthController
-imageController
+AuthController ,
+imageController ,
 VideoReviewController
+RequestController : -->getAllRequests , validateSupportTicket  ,
 
 Repository:
 
